@@ -27,7 +27,7 @@ metadata:
 spec:
   selector:
     app: convert
+  type: ClusterIP
   ports:
-  - port: 80
-    targetPort: 8080
-  type: LoadBalancer
+    - port: 80   
+      targetPort: 8080
