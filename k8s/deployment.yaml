@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: conversao-temp
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: convert
@@ -31,3 +31,4 @@ spec:
   ports:
     - port: 80   
       targetPort: 8080
+
