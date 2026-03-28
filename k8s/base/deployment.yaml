@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: conversao-temp
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: conversao
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: conversao
-        image: rangelcr/conversao-temperatura
+        image: rangelcr/conversao-temperatura:v12
         ports:
         - name: http
           containerPort: 8080
