@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: hml
 
 resources:
-  - ../../k8s/base
+  - ../../base
 
 images:
   - name: rangelcr/conversao-temperatura
