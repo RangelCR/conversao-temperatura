@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: conversao-temp
 spec:
-  replicas: 5
+  replicas: 3
